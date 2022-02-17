@@ -39,3 +39,5 @@ console.log(navigator.userAgent);
 //console.log(history);
 //window.history.back();
 //history.go(-2);
+
+//setProperty
