@@ -51,7 +51,23 @@ container.addEventListener("mouseout", () => {
 response.addEventListener("mouseover", () => {
   mousemove.style.transform = "rotate(2deg)";
 });
-
+//keyPress
+const ring = (key) => {
+  const audio = new Audio();
+  audio.src = key + ".mp3";
+  audio.play();
+};
 document.addEventListener("keypress", (e) => {
   console.log(e);
+  ring();
+});
+//Scroll Event
+
+window.addEventListener("scroll", () => {
+  console.log(window.scrollY);
+});
+// Load event
+
+window.addEventListener("load", () => {
+  console.log("document cast");
 });
