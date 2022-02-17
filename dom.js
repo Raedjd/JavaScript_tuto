@@ -71,3 +71,23 @@ window.addEventListener("scroll", () => {
 window.addEventListener("load", () => {
   console.log("document cast");
 });
+
+//Bubbling
+document.body.addEventListener(
+  "click",
+  () => {
+    console.log("click 1!");
+  },
+  false
+);
+
+//Use capture
+document.body.addEventListener(
+  "click",
+  () => {
+    console.log("click 2!");
+  },
+  true
+);
+
+//removeEventListener
