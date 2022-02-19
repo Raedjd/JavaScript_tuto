@@ -16,7 +16,7 @@ console.log(mail.match(/[123]/));
 //All chiff
 console.log(mail.match(/\d/));
 //All letter
-console.log(mail.match([a - z]));
+//console.log(mail.match([a - z]));
 
 //All chif and letter
 console.log(mail.match(/^[\w_-]+@[w-]+\.[a-z]{2,4}$/i));
