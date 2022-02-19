@@ -87,7 +87,7 @@ function User3(pseudo, ville) {
     ville,
   };
 }
-const user4 = User3("FS", "nice");
+const user4 = User3("Ahmed", "Bizerte");
 // console.log(user4);
 
 //------------------------
@@ -103,7 +103,7 @@ class Utilisateur {
   };
 }
 
-const user5 = new Utilisateur("Samia", "Lyon");
+const user5 = new Utilisateur("Maram", "Seliana");
 
 Utilisateur.prototype.sayCity = function () {
   console.log("J'habite à " + this.ville);
