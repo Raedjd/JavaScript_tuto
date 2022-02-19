@@ -3,7 +3,7 @@
 const h3js = document.getElementById("js");
 //console.log(h3js.dataset.lang);
 
-//----------------Regex----------------
+//----------------Regex-----------------
 
 let mail = "raed.jaidi@esprit.tn";
 
