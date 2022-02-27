@@ -1,7 +1,7 @@
 const obj = {
   // index:value
-  pseudo: "From Scratch",
-  ville: "Bordeaux",
+  pseudo: "Raedjd",
+  ville: "tunis",
   admin: false,
 
   direBonjour: function () {
